@@ -1,3 +1,5 @@
+/* Entidade da tabela produtos: produtos vendidos na loja (preço, estoque, categoria). */
+
 package com.umamifoods.api.model;
 
 import java.time.LocalDateTime;

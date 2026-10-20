@@ -1,3 +1,4 @@
+/* DTO de saída: dados devolvidos após o login (id, nome, e-mail e mensagem), sem a senha. */
 
 package com.umamifoods.api.dto;
 

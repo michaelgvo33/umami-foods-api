@@ -1,3 +1,5 @@
+/* Entidade da tabela usuarios: dados de login e cadastro do cliente (a senha fica criptografada em senhaHash). */
+
 package com.umamifoods.api.model;
 
 import java.time.LocalDateTime;
@@ -20,6 +22,7 @@ public class Usuario {
 
     private String email;
 
+    @com.fasterxml.jackson.annotation.JsonIgnore
     private String senhaHash;
 
     private String telefone;

@@ -1,3 +1,5 @@
+/* Entidade da tabela enderecos: endereços de entrega de um usuário. */
+
 package com.umamifoods.api.model;
 
 import javax.persistence.Entity;
@@ -16,6 +18,7 @@ public class Endereco {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idEndereco;
 
+    @com.fasterxml.jackson.annotation.JsonIgnore
     @ManyToOne
     @JoinColumn(name = "id_usuario", nullable = false)
     private Usuario usuario;

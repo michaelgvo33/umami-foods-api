@@ -1,3 +1,4 @@
+/* Regras de negócio do cadastro (valida dados, criptografa a senha, salva usuário e endereço) e do login (confere e-mail e senha). */
 
 package com.umamifoods.api.service;
 
@@ -43,6 +44,12 @@ public class AuthService {
             throw new IllegalArgumentException("O e-mail é obrigatório.");
         }
 
+        String email = dados.getEmail().trim().toLowerCase();
+
+        if (!email.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$")) {
+            throw new IllegalArgumentException("O formato do e-mail é inválido.");
+        }
+
         if (dados.getSenha() == null || dados.getSenha().isEmpty()) {
             throw new IllegalArgumentException("A senha é obrigatória.");
         }
@@ -50,8 +57,6 @@ public class AuthService {
         if (!dados.getSenha().equals(dados.getConfirmarSenha())) {
             throw new IllegalArgumentException("As senhas não são iguais.");
         }
-
-        String email = dados.getEmail().trim().toLowerCase();
 
         if (usuarioRepository.existsByEmail(email)) {
             throw new IllegalArgumentException("Este e-mail já está cadastrado.");

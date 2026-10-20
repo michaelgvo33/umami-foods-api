@@ -1,3 +1,5 @@
+/* Entidade da tabela status_pedido: possíveis status de um pedido (ex.: pendente, entregue). */
+
 package com.umamifoods.api.model;
 
 import javax.persistence.Entity;

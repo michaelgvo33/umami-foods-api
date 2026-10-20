@@ -1,3 +1,5 @@
+/* Entidade da tabela contatos: mensagens enviadas pelo formulário de contato. */
+
 package com.umamifoods.api.model;
 
 import java.time.LocalDateTime;

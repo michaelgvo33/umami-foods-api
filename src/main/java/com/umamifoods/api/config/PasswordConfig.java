@@ -1,3 +1,5 @@
+/* Define o PasswordEncoder (BCrypt), usado para criptografar a senha no cadastro e conferir no login. */
+
 package com.umamifoods.api.config;
 
 import org.springframework.context.annotation.Bean;

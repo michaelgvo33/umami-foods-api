@@ -1,3 +1,5 @@
+/* Entidade da tabela itens_pedido: cada produto (com quantidade e preço) dentro de um pedido. */
+
 package com.umamifoods.api.model;
 
 import javax.persistence.Entity;

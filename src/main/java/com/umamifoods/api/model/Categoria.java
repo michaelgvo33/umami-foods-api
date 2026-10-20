@@ -1,3 +1,5 @@
+/* Entidade da tabela categorias: agrupa os produtos. */
+
 package com.umamifoods.api.model;
 
 import javax.persistence.Entity;

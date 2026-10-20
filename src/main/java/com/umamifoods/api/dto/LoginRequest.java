@@ -1,3 +1,4 @@
+/* DTO de entrada: e-mail e senha enviados no login. */
 
 package com.umamifoods.api.dto;
 

@@ -1,3 +1,5 @@
+/* Entidade da tabela historico_status: registra cada mudança de status de um pedido. */
+
 package com.umamifoods.api.model;
 
 import java.time.LocalDateTime;

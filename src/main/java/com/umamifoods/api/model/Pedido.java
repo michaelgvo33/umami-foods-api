@@ -1,3 +1,5 @@
+/* Entidade da tabela pedidos: pedido feito pelo usuário (valores, status, pagamento e cópia do endereço). */
+
 package com.umamifoods.api.model;
 
 import java.time.LocalDateTime;

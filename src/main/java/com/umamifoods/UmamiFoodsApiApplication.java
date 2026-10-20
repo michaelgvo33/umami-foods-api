@@ -1,3 +1,4 @@
+/* Classe principal: inicia a aplicação Spring Boot (rode esta classe para subir a API na porta 8080). */
 
 package com.umamifoods;
 

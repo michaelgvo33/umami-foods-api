@@ -1,3 +1,4 @@
+/* Endpoints de autenticação: POST /api/auth/cadastro (criar conta) e POST /api/auth/login (entrar). */
 
 package com.umamifoods.api.controller;
 

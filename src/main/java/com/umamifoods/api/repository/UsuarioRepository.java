@@ -1,3 +1,4 @@
+/* Acesso ao banco para a tabela usuarios (CRUD + busca por e-mail, usada no cadastro e no login). */
 
 package com.umamifoods.api.repository;
 

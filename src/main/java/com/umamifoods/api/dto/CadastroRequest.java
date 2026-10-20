@@ -1,3 +1,4 @@
+/* DTO de entrada: dados enviados no cadastro (dados pessoais, senha e endereço). */
 
 package com.umamifoods.api.dto;
 

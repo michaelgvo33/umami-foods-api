@@ -1,3 +1,5 @@
+/* Entidade da tabela favoritos: liga um usuário aos produtos que ele favoritou. */
+
 package com.umamifoods.api.model;
 
 import java.time.LocalDateTime;
